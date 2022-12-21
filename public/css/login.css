@@ -1,0 +1,45 @@
+main {
+    width: 100vw;
+    text-align: center;
+    font-size: 14px;
+}
+
+main form {
+    width: 80%;
+    margin: 0% 10% 5% 10%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main form div {
+    width: 100%;
+}
+
+main form div input {
+    width: 95%;
+    height: 30%;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+main form div button {
+    width: 95%;
+    height: 30%;
+    background-color: #0f6ed3;
+    border: solid 1px #0f6ed3;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 2px; 
+    box-sizing: border-box;
+    transition: background-color 5ms;
+}
+
+main form div button:hover{
+    background-color: #0022AA;
+}

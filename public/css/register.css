@@ -1,0 +1,67 @@
+
+main{
+width: 100vw;
+font-size: 14px;
+
+}
+
+main form {
+    width: 80%;
+    margin: 0% 10% 5% 10%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main form div{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+main form div label {
+    font-weight: 700;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+main form div input {
+    width: 95%;
+    text-align: left;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #FFF;
+    border: 1px solid white;
+    box-sizing: border-box; 
+    margin: 5px;
+}
+
+main form div .opcion input{
+    width: 10%;
+}
+main form div .opcion label{
+    width: 10%;
+}
+
+main form div .categoria {
+    display: flex;
+    flex-wrap: wrap;
+}
+main form div .categoria input {
+    width: 10%;
+}
+main form div .categoria label {
+    width: 80%;
+}
+
+main form div button {
+    width: 95%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #0f6ed3;;
+    border: 1px solid #0f6ed3;
+    box-sizing: border-box; 
+    margin: 5px;
+    color: #FFF;
+}
